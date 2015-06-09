@@ -1,0 +1,227 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+@media print {
+  /* line 16, ../../css/main.scss */
+  body {
+    zoom: 40%;
+    color: #000;
+  }
+  /* line 20, ../../css/main.scss */
+  body a {
+    color: black;
+  }
+
+  /* line 23, ../../css/main.scss */
+  #printFooter {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+}
+@media screen {
+  /* line 31, ../../css/main.scss */
+  #printFooter {
+    display: none;
+  }
+}
+/* line 36, ../../css/main.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #222222;
+  width: 60em;
+  margin: auto;
+}
+
+/* line 44, ../../css/main.scss */
+h1, h2, h3 {
+  font-weight: 300;
+  margin: 0;
+}
+
+/* line 49, ../../css/main.scss */
+a {
+  color: #80d6f8;
+}
+
+/* line 53, ../../css/main.scss */
+#page {
+  margin: 1em;
+  position: relative;
+}
+
+/* line 58, ../../css/main.scss */
+#paul-sadauskas {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 4em;
+}
+
+/* line 64, ../../css/main.scss */
+#senior-web-application-engineer {
+  color: #80d6f8;
+  text-transform: uppercase;
+  font-size: 2em;
+  margin-top: 0;
+}
+
+/* line 70, ../../css/main.scss */
+#contact-info {
+  font: 0/0 serif;
+  text-shadow: none;
+  color: transparent;
+}
+/* line 73, ../../css/main.scss */
+#contact-info + ul {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 3em;
+  list-style: none;
+}
+/* line 11, ../../../../../.gem/ruby/2.1.5/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+#contact-info + ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+}
+/* line 81, ../../css/main.scss */
+#contact-info + ul li {
+  margin-bottom: 0.75em;
+  color: #80d6f8;
+  text-transform: uppercase;
+}
+/* line 85, ../../css/main.scss */
+#contact-info + ul li:before {
+  font-family: FontAwesome;
+  font-size: 1.75em;
+  font-weight: 300;
+  margin: 0 0.5em 0 -1.5em;
+  display: inline-block;
+  width: 1em;
+  position: relative;
+  top: 8px;
+  color: #666;
+}
+/* line 98, ../../css/main.scss */
+#contact-info + ul li:first-child:before {
+  content: "\f003";
+}
+/* line 104, ../../css/main.scss */
+#contact-info + ul li:nth-child(2):before {
+  content: "\f13b";
+}
+/* line 110, ../../css/main.scss */
+#contact-info + ul li:nth-child(3):before {
+  content: "\f09b";
+}
+/* line 117, ../../css/main.scss */
+#contact-info + ul a {
+  display: block;
+  color: #222222;
+  text-decoration: none;
+  text-transform: none;
+}
+/* line 123, ../../css/main.scss */
+#contact-info + ul a:hover {
+  text-decoration: underline;
+}
+
+/* line 131, ../../css/main.scss */
+#passionate-about-the-craft-of-creating-software {
+  display: block;
+  margin: 3em auto 0 auto;
+  width: 80%;
+  text-align: center;
+}
+/* line 137, ../../css/main.scss */
+#passionate-about-the-craft-of-creating-software + p {
+  width: 66%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* line 146, ../../css/main.scss */
+h2 {
+  text-transform: uppercase;
+  font-size: 1.6em;
+  margin-top: 1em;
+}
+/* line 151, ../../css/main.scss */
+h2:before {
+  font-family: FontAwesome;
+  color: #80d6f8;
+  content: "\f105";
+}
+/* line 157, ../../css/main.scss */
+h2 + ul {
+  font-size: 1em;
+  text-transform: none;
+  list-style: none;
+  padding: 0;
+}
+/* line 11, ../../../../../.gem/ruby/2.1.5/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+h2 + ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+}
+/* line 163, ../../css/main.scss */
+h2 + ul li > p {
+  width: 100%;
+}
+/* line 166, ../../css/main.scss */
+h2 + ul li > p > em {
+  float: right;
+}
+/* line 170, ../../css/main.scss */
+h2 + ul li > p > mark {
+  background-color: transparent;
+  color: #80d6f8;
+  text-transform: uppercase;
+}
+/* line 174, ../../css/main.scss */
+h2 + ul li > p > mark:after {
+  color: #222222;
+  content: " @";
+}
+/* line 181, ../../css/main.scss */
+h2 + ul li > p > a {
+  color: #222222;
+}
+
+/* line 193, ../../css/main.scss */
+#notable-professional-skills + p + ul {
+  list-style: none;
+}
+/* line 11, ../../../../../.gem/ruby/2.1.5/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+#notable-professional-skills + p + ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+}
+
+/* line 199, ../../css/main.scss */
+footer {
+  margin-bottom: 3em;
+}
+/* line 202, ../../css/main.scss */
+footer h1 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 1.2em;
+}
+/* line 208, ../../css/main.scss */
+footer ul {
+  list-style-type: none;
+}
+/* line 5, ../../../../../.gem/ruby/2.1.5/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
+footer ul, footer ul li {
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+/* line 211, ../../css/main.scss */
+footer ul li {
+  padding-right: 2em;
+}
